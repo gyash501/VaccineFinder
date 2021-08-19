@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+
+  }
+
+  .container-fluid{
+      width: 90%;
+      margin: auto;
+  }
+
+  .table-responsive{
+      max-height: 700px;
+      box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+      color: red;
+  }
+
+ 
+td:hover::after,
+th:hover::after {
+    content: "";
+    position:absolute;
+    left: 0;
+    top: -5000px;
+    height: 5000px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+  .green:hover {
+      background-color: rgb(117, 223 ,112);
+      color: aliceblue;
+      border: 0.5px solid rgb(12,12,12);
+  }
+
+  
+  .heading{
+      font-size: large;
+      font-weight: bold;
+      text-transform:capitalize;
+      background-color: darkgrey;
+  }
+  
+  .deaths:hover{
+    background-color:rgb(231, 83, 115);
+    color: aliceblue;
+    border: 0.5px solid rgb(12,12,12);
+
+  }
+  
